@@ -1,9 +1,7 @@
 #include <iostream>
 #include "hello.h"
 
-using namespace std;
-
-string printGameOver(){
-	cout << "Game Over !" << "\n";
+std::string printGameOver(){
+	std::cout << "Game Over !" << std::endl;
 	return "";
 }
